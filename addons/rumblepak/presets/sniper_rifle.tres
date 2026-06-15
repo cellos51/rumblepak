@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RumblePreset" format=3 uid="uid://go8rfnspnku4"]
+
+[ext_resource type="Script" uid="uid://dxitwtoa4fec0" path="res://addons/rumblepak/rumble_preset.gd" id="1_yu2dd"]
+
+[sub_resource type="Curve" id="Curve_3ey0c"]
+_data = [Vector2(0, 1), 0.0, -3.766157, 0, 0, Vector2(0.8960674, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_pjm2f"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1e-05, 1), 0.036974397, 0.036974397, 0, 0, Vector2(0.15730336, 1), 0.0, 0.0, 0, 0, Vector2(0.24438202, 0.26901883), -0.72893304, -0.72893304, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[resource]
+script = ExtResource("1_yu2dd")
+weak_curve = SubResource("Curve_pjm2f")
+strong_curve = SubResource("Curve_3ey0c")
