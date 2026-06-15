@@ -28,9 +28,10 @@ func _physics_process(delta: float) -> void:
 
 		# Apply bus strength.
 		rumble *= bus_strength.get(preset.bus, 1.0)
-
 		rumble *= bus_strength[&"master"]
+
 		total_rumble = (total_rumble + rumble).clamp(Vector2.ZERO, Vector2.ONE)
+		
 		rumble_bus.time_elapsed += delta
 
 	# Apply rumble to controller.
