@@ -27,10 +27,7 @@ func _physics_process(delta: float) -> void:
 		rumble.y = preset.strong_curve.sample_baked(curve_offset.y)
 
 		# Apply bus strength.
-		var strength := bus_strength[preset.bus]
-		
-		if is_instance_valid(strength):
-			rumble *= strength
+		rumble *= bus_strength.get(preset.bus, 1.0)
 
 		rumble *= bus_strength[&"master"]
 		total_rumble = (total_rumble + rumble).clamp(Vector2.ZERO, Vector2.ONE)
