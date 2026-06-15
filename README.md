@@ -1,11 +1,11 @@
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColo)](https://ko-fi.com/ellipticaldev)
 
 
-# RumblePak
-## A tool for easily adding customizable controller haptic feedback.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cellos51/rumblepak/refs/heads/main/addons/rumblepak/icons/logo.svg" />
+  <img src="https://raw.githubusercontent.com/cellos51/rumblepak/refs/heads/main/banner.svg" />
 </p>
+
+***RumblePak*** is a tool for easily adding customizable controller haptic feedback in Godot. 
 
 ## About
 
