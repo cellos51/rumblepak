@@ -38,6 +38,8 @@ var initial_grab_right_tangent: float
 var snap_enabled: bool = false
 var snap_count: int = 10
 
+var line_color: Color = Color.WHITE
+
 var _world_to_view: Transform2D
 
 var _editor_scale: float = 1.0
@@ -757,8 +759,6 @@ func get_tangent_view_pos(index: int, tangent: TangentIndex) -> Vector2:
 
 		
 func plot_curve_accurate(step: float, scaling: Vector2):
-	var line_color: Color = get_theme_color(&"font_color", &"Editor")
-	
 	if _curve.point_count <= 1:
 		var y: float = _curve.sample(0)
 		draw_line(Vector2(0, y) * scaling + Vector2(0.5, 0), Vector2(1.0, y) * scaling - Vector2(-1.5, 0), line_color)

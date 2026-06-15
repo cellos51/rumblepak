@@ -30,7 +30,9 @@ func add_graph(preset: RumblePreset, curve_type: CurveType) -> void:
 
 	if curve_type == CurveType.WEAK_CURVE:
 		graph.set_curve(preset.weak_curve)
+		graph.line_color = Color("3d64dd")
 	else:
 		graph.set_curve(preset.strong_curve)
+		graph.line_color = Color("cd3838")
 
 	add_custom_control(graph)
