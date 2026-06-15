@@ -1,11 +1,17 @@
-[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColo)](https://ko-fi.com/ellipticaldev)
-
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/cellos51/rumblepak/refs/heads/main/banner.svg" />
 </p>
 
-***RumblePak*** is a tool for easily adding customizable controller haptic feedback in Godot. 
+<p align="center">
+<a href="https://ko-fi.com/ellipticaldev" target="_blank">
+<img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColo" alt="Ko-fi"></a>
+
+<a href="https://godotengine.org/asset-library/asset/5263" target="_blank">
+<img src="https://img.shields.io/badge/asset_library-%23EEEEEE.svg?style=for-the-badge&logo=godot-engine" alt="Godot Asset Library"></a>
+
+<a href="https://store.godotengine.org/asset/elliptical/rumblepak/" target="_blank">
+<img src="https://img.shields.io/badge/asset_store-%23333333.svg?style=for-the-badge&logo=godot-engine&logoColor=%23ffffff" alt="Godot Asset Store"></a>
+</p>
 
 ## About
 
