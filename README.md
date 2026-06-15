@@ -1,3 +1,6 @@
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColo)](https://ko-fi.com/ellipticaldev)
+
+
 # RumblePak
 ## A tool for easily adding customizable controller haptic feedback.
 <p align="center">
