@@ -18,6 +18,8 @@
 I was a bit disappointed by Godot's lack of multiple channels when it comes to controller vibration.
 Any change to vibration would override the last setting, so I decided to make a plugin to fix that!
 
+This plugin is being used in my game [EXUVA](https://store.steampowered.com/app/4513670/EXUVIA/) which you can wishlist now!
+
 ### Features
 
 - Multiple independent rumble channels
