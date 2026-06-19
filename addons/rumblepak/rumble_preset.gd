@@ -3,7 +3,11 @@
 class_name RumblePreset
 extends Resource
 
+@export_group("Testing")
 @export_tool_button("Test Rumble", "Noise") var test_action := _test
+## The contoller index to use when testing rumble in the editor.
+@export var controller_index: int = 0
+@export_group("Properties")
 ## The rumble bus to use when applying controller rumble.
 @export var bus: StringName = &"master"
 ## The intensity of rumble for the preset to be limited to.
@@ -21,4 +25,4 @@ extends Resource
 
 
 func _test() -> void:
-	RumblePak.add_rumble(self)
+	RumblePak.add_rumble(self, controller_index)
